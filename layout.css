@@ -23,23 +23,41 @@ figure {
     margin-block-start: -1rem;
     margin-inline-start: -1rem;
 }
+.forBorder {
+    border: 0.1rem solid black;
+}
 .pieni {
     width: 20rem;
     background-color: white;
     padding: 0;
-    border: 0;
+    border: 1px solid black;
+    border-width: 0 1px 1px 0;
 }
 .pieni img {
     max-width: 100%;
+
 }
 figure span {
     margin-block-end: 1rem;
 }
-h2, p, pre{
-    margin-block-end: 1rem;
+h2,
+h3,
+p,
+pre,
+section,
+ul {
+  margin-block-end: 1rem;
 }
 h2 {
     font-size: 2.8rem;
+}
+h3 {
+    font-size: 2.4rem;
+  }
+ul {
+font-size: 1.6rem;
+list-style: disc;
+padding-inline-start: 3rem;
 }
 .oikealle {
     text-align: right;
@@ -50,6 +68,24 @@ h2 {
     padding-block-start: 2rem;
     text-transform: lowercase;
 }
+.vasen-nurkka {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    width: 50rem;
+    border: 1px solid black;
+    border-width: 0 1px 1px 0;
+}
+.oikea-reuna {
+    color: black;
+    background-color: white;
+    float: right;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    margin: 1rem -1.2rem 1rem 1rem;
+    border-width: 1px 0 1px 1px;
+}
+
 p {
     font-size: 1.6rem;
 }
@@ -57,4 +93,7 @@ pre {
     font-size: 1.6rem;
     font-family: 'Courier New', Courier, monospace;
     margin-inline-start: 2rem;
+}
+h4 {
+    margin-inline-end: 1rem;
 }

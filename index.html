@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="layout.css">
     </head>
     <body>
-        <section>
+        <section class="q">
             <figure>
                 <span>Q</span>
             </figure>
@@ -29,7 +29,7 @@ border-width: 0 0.2em 0.2em 0; margin: 0 0.5em 0.2em 0;}
                 It all adds up to the appearance of a block that's had a corner punched out and replaced, and the text in the block reflowed to go around the punchout. And, in a sense, that's exactly what happened. But what if I want to put a border around the main block of text? How do I keep it from encircling my punched-out corner? Even worse, how do I get that border to run along the edge of the punchout?
             </p>
         </section>
-        <section>
+        <section class="forBorder">
             <figure class="pieni">
                 <img src="./images/magnifier..png" alt="magnifire">
             </figure>
@@ -49,7 +49,7 @@ div#punch2 img {height: 70px; width: 100px;}
             </pre>
             <p>As in the curvelicious demo, the h1 at the top is simply styled as normal, and its borders and background "slide under" the floated element. This is expected behavior in CSS2. If you were to set a left border on the h1, you'd have to make it at least 111px wide before it could be seen at all! Well, unless it become so tall that it was taller than the float. Then you'd be able to see it below the float. If your browser supports text zooming, try increasing the text size until the h1 is taller than the float. You should see what I mean then. </p>
         </section>
-        <section>
+        <section class="forBorder">
             <figure class="vasen-nurkka">
                 <span>
                     Like this text? It can be yours for just $19.99! But wait! There's
@@ -57,7 +57,7 @@ div#punch2 img {height: 70px; width: 100px;}
                     Amaya absolutely free! Don't delay-- act now!
                   </span>
             </figure>
-            <h2>
+            <h2 class="oikealle">
                 Again with the punching
             </h2>
             <p>
